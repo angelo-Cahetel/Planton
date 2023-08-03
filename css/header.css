@@ -10,7 +10,7 @@ header {
 .box {
     position: fixed;
     width: 100%;
-    height: 80px;
+    height: 11vh;
     flex-shrink: 1;
     border-radius: 0% 0% 100px 0%;
     background: rgba(21, 85, 89, 0.4);
@@ -24,7 +24,7 @@ header {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 50vw;
+    gap: 42vw;
 }
 
 .header-texto {
@@ -39,7 +39,7 @@ header {
 .lista {
     list-style: none;
     display: flex;
-    gap: 67px;
+    gap: 4rem;
 }
 
 .botao {
