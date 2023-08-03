@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+  overflow-x: hidden;
+}
+
+main {
+    font-family: comfortaa;
+    margin: 0;
+    padding: 9rem 11rem;
+    display: flex;
+}
+
+::selection {
+  background-color: #A4A929;
+}
+
+.highlight::selection {
+  background-color: #A4A929;
+}
+
+  .background-img {
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .container {
+    
+    width: 67vw;
+    margin: 0 5rem;
+  }
+
+  h1 {
+    color: #FFF;
+    font-family: Comfortaa;
+    font-size: 4.6875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 6rem;
+    line-height: 11rem;
+  }
+
+  .texto-info {
+    color: #FFF;
+  font-family: Comfortaa;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem;
+  }
+
+  label,
+  input,
+  textarea {
+    border-radius: 0 0 20px;
+    display: block;
+    width: 103%;
+    margin-bottom: 10px;
+
+  }
+
+  label,
+  input,
+  textarea:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+  }
+
+  .blur {
+    color: #FFF;
+    background-color: #155559;
+    opacity: 0.5;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    border: none;
+  }
+
+  input[type="text"],
+  input[type="email"] {
+    height: 2.5rem;
+  }
+
+  textarea {
+    resize: vertical;
+    height: 10rem;
+  }
+
+  input[type="submit"] {
+    font-family: comfortaa;
+    font-size: 25px;
+    background-color: #A4A929;
+    color: #fff;
+    border: none;
+    align-items: center;
+    margin: 3rem 25vw;
+    border-radius: 80px;
+    padding: 10px 20px;
+    cursor: pointer;
+    top: 46rem;
+    width: 20vw;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #155559;
+  }

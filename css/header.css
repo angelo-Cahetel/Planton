@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-family: comfortaa;
+}
+.box {
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    flex-shrink: 1;
+    border-radius: 0% 0% 100px 0%;
+    background: rgba(21, 85, 89, 0.4);
+    fill: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
+    background-blend-mode: overlay;
+    backdrop-filter: blur(1.5rem);
+    z-index: 1000;
+    }
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 50vw;
+}
+
+.header-texto {
+    z-index: 2;
+}
+
+.logo {
+    margin-left: 180px;
+    z-index: 2;
+}
+
+.lista {
+    list-style: none;
+    display: flex;
+    gap: 67px;
+}
+
+.botao {
+    color: #8FAB71;
+    font-family: Comfortaa;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400px;
+    line-height: 135%;
+}
+
+.botao:hover {
+    color: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow:  0 0 0;
+}
+
+@media screen and (max-width: 480px) {
+    .box {
+        position: fixed; 
+        width: 92%;
+        height: 5%;
+        flex-shrink: 1;
+        border-radius: 0% 0% 150px 0%;
+        background: rgba(21, 85, 89, 0.4);
+        fill: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
+        background-blend-mode: overlay;
+        backdrop-filter: blur(1.5rem);
+        z-index: 1000;
+        }
+    
+    
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+    }
+
+    img {
+        width: 60vw;
+        height: auto;
+    }
+
+    .logo {
+
+        margin: 0; 
+    }
+
+    .botao {
+        font-size: 30px;
+    }
+}
+

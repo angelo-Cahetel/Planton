@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+body {
+    overflow-x: hidden;
+}
+
+::selection {
+    background-color: #A4A929;
+}
+
+.highlight::selection {
+    background-color: #A4A929;
+}
+
+
+.imagem-container {
+    padding-top: 80px;
+}
+
+
+
+.imagem-servico {
+    position: absolute;
+    background-color: #A4A929;
+    z-index: -1;
+}
+
+.titulo {
+    color: #fff;
+    
+    padding: 100px 184px;
+
+    font-family: comfortaa;
+    font-size: 70px;
+
+    z-index: 2;
+}
+
+.titulo3 {
+    color: #fff;
+    
+    padding: 80px 184px;
+
+    font-family: comfortaa;
+    font-size: 70px;
+
+    z-index: 2;
+}
+
+
+.background {
+    position: absolute;
+    top: 5rem;
+    width: 60rem;
+    height: 23.8rem;
+    flex-shrink: 0;
+    fill: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
+    background-blend-mode: overlay;
+    backdrop-filter: blur(20px);
+    border-radius: 0rem 0rem 0rem 6.25rem;
+    
+    z-index: -1;
+}
+
+.background2 {
+    position: absolute;
+    width: 71.22569rem;
+    height: 23.75rem;
+    flex-shrink: 0;
+    fill: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
+    background-blend-mode: overlay;
+    backdrop-filter: blur(20px);
+    border-radius: 0rem 0rem 0rem 6.25rem;
+
+    z-index: -1;
+
+}
+
+.background3 {
+    width: 89vw;
+}
+
+.background4 {
+    width: 52rem;
+}
+
+.texto-container {
+    align-items: center;
+    justify-content: center;
+    padding: 6.75rem 11.53rem 3rem;
+}
+
+.texto {
+    width: 62vw;
+
+    color: #155559;
+    font-family: Comfortaa;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  2.53125rem;
+}
+
+.botao-servicos {
+    font-family: comfortaa;
+    font-size: 2vw;
+    padding: 0.5625rem 4.875rem;
+    margin: 5vw 0;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    gap: 0.625rem;
+    border-radius: 5rem;
+    color: #fff;
+    background: #A4A929;
+    cursor: pointer;
+}
+
+.botao-servicos:hover {
+    background-color: #155559;
+}
+
+
+footer {
+    position: relative;
+    /* top: -1vw; */
+    width: 100vw;
+    height: 60vh;
+}
+.selos-container {
+    background-color: #155559;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    
+    margin: 0;
+    padding: 10vw 7vw;
+    
+}
+
+.selo-logo img {
+    max-width:20vw;
+    max-height:15vh;
+    width: auto;
+    height: auto;
+    margin-right: 38vw;
+}
+
+.selo-2 {
+    padding: 4vw;
+}
+
+.selo-3 {
+    position: relative;
+    top: 0;
+}
+

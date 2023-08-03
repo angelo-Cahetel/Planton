@@ -1,0 +1,131 @@
+body {
+    background: linear-gradient(to right,#A6A926, #26A1A9);
+    color: #fff;
+    font-family: comfortaa;
+    overflow-x: hidden;
+}
+
+::selection {
+    background-color: #A4A929;
+}
+
+.highlight::selection {
+    background-color: #A4A929;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sobreNos {
+    padding: 10vw 9vw 3vw;
+    font-size: 80px;
+    color: #fff;
+}
+
+.foto-sobreNos {
+    position: absolute;
+    width: 37vw;
+    height: 58rem;
+    left: 58vw;
+    top: 21vw;
+    z-index: -1;
+    
+}
+
+.container-sobreNos {
+    flex-direction: row-reverse;
+}
+
+.texto-principal {
+    margin: 0;
+    padding: 1vw 9vw;
+    width: 45vw;
+    color: #FFF;
+    font-family: Comfortaa;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.375rem;
+}
+
+.saiba-mais {
+    position: absolute;
+    font-family: comfortaa;
+    font-size: 2.5rem;
+    color: #FFF;
+    display: flex;
+    width: 20vw;
+    height: 37vh;
+    padding: 3rem 8rem;
+    margin-left: 48vw;
+    top: 0.01vw;
+    justify-content: center;
+    align-items: center;
+    gap: 0 8vw;
+    flex-shrink: 0;
+    border-radius: 0rem 0rem 6.25rem 0rem;
+    background: #A4A929;
+    border: none;
+}
+
+.saiba-mais:hover {
+    background-color: #155559;
+}
+
+.chamada-container {
+    position: absolute;
+    margin: 5vw 9vw;
+    width: 48vw;
+    height: 37vh;
+    background: linear-gradient(90deg, #26A1A9 0%, #A6A926 100%);
+
+}
+
+.texto-chamada {
+    position: relative;
+    color: #FFF;
+    font-family: Comfortaa;
+    font-size: 2.6rem;
+    font-style: normal;
+    font-weight: 400;   
+    margin: 5vw 3vw;
+
+    z-index: 2;
+}
+
+/* footer  */
+
+footer {
+    position: relative;
+    top: 80vh;
+}
+.selos-container {
+    background-color: #155559;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    
+    margin: 0;
+    padding: 10vw 7vw;
+    
+}
+
+.selo-logo img {
+    max-width:20vw;
+    max-height:15vh;
+    width: auto;
+    height: auto;
+    margin-right: 38vw;
+}
+
+.selo-2 {
+    padding: 4vw;
+}
+
+.selo-3 {
+    position: relative;
+    top: 0;
+}
+
+
