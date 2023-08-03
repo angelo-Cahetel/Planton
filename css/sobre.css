@@ -46,7 +46,7 @@ a {
     font-size: 1.5rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 3.375rem;
+    line-height: 1.8rem;
 }
 
 .saiba-mais {
@@ -75,6 +75,7 @@ a {
 
 .chamada-container {
     position: absolute;
+    top: 82rem;
     margin: 5vw 9vw;
     width: 48vw;
     height: 37vh;
@@ -98,17 +99,59 @@ a {
 
 footer {
     position: relative;
-    top: 80vh;
+    top: 89vh;
 }
 .selos-container {
     background-color: #155559;
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
     
     margin: 0;
-    padding: 10vw 7vw;
+    padding: 5vw;
     
+}
+
+.endereco {
+    color: #FFF;
+    font-family: Comfortaa;
+    font-size: 1.25rem;
+    font-style: normal;
+    padding: 2rem;
+    font-weight: 400;
+    line-height: 1.6875rem;
+}
+
+.redes-container {
+    padding: 0 2rem;
+    justify-content: space-between;
+}
+
+.insta {
+    color: #FFF;
+    font-family: Comfortaa;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    justify-content: space-between;
+    line-height: 1.6875rem;
+    text-decoration-line: underline;
+}
+
+.insta:hover, 
+.linkedin:hover {
+    color: #A4A929;
+}
+
+.linkedin {
+    color: #FFF;
+    font-family: Comfortaa;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    justify-content: space-between;
+    padding-left: 2.5rem;
+    line-height: 1.6875rem;
+    text-decoration-line: underline;
 }
 
 .selo-logo img {

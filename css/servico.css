@@ -123,7 +123,7 @@ body {
 
 footer {
     position: relative;
-    /* top: -1vw; */
+    
     width: 100vw;
     height: 60vh;
 }
@@ -131,11 +131,53 @@ footer {
     background-color: #155559;
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
     
     margin: 0;
-    padding: 10vw 7vw;
+    padding: 5vw;
     
+}
+
+.endereco {
+    color: #FFF;
+    font-family: Comfortaa;
+    font-size: 1.25rem;
+    font-style: normal;
+    padding: 2rem;
+    font-weight: 400;
+    line-height: 1.6875rem;
+}
+
+.redes-container {
+    padding: 0 2rem;
+    justify-content: space-between;
+}
+
+.insta {
+    color: #FFF;
+    font-family: Comfortaa;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    justify-content: space-between;
+    line-height: 1.6875rem;
+    text-decoration-line: underline;
+}
+
+.insta:hover, 
+.linkedin:hover {
+    color: #A4A929;
+}
+
+.linkedin {
+    color: #FFF;
+    font-family: Comfortaa;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    justify-content: space-between;
+    padding-left: 2.5rem;
+    line-height: 1.6875rem;
+    text-decoration-line: underline;
 }
 
 .selo-logo img {

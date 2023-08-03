@@ -5,10 +5,7 @@ footer {
     background-color: #155559;
     display: flex;
     align-items: center;
-    /* justify-content: space-evenly; */
-    
-    margin: 0;
-    padding: 10vw 7vw;
+    padding: 5vw;
     
 }
 
