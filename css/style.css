@@ -131,11 +131,11 @@ svg {
     margin: 0;
     color: #155559;
     font-family: Comfortaa;
-    font-size: 2.5vw;
+    font-size: 1.5vw;
     font-style: normal;
     font-size: 2vw;
     font-weight: 400;
-    line-height: 2.5vw;
+    line-height: 2vw;
 }
 
 .botao-sobre {
@@ -162,8 +162,8 @@ svg {
 .servicos {
     position: inherit;
     height: 100%;
-    width: 100%;
-    padding-top: 50px;
+    width: 100vw;
+    padding-top: 0.5rem;
     background: linear-gradient(180deg, #FFF 50%, #47A388 100%);
 }
 
@@ -175,7 +175,7 @@ svg {
     color: #155559;
     font-family: Comfortaa;
     font-size: 75px;
-    padding: 15rem 10rem 5rem 12rem;
+    padding: 8rem 10rem 5rem 12rem;
     margin: 0;
     font-style: normal;
     font-weight: 400;
@@ -193,7 +193,7 @@ svg {
 .figure__card {
     position: relative;
     display: inline-block;
-    margin: 2.4rem;
+    margin: 2rem;
     min-width: 230px;
     max-width: 315px;
     width: 100%;
