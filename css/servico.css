@@ -28,10 +28,10 @@ body {
 .titulo {
     color: #fff;
     
-    padding: 100px 184px;
+    padding: 120px 190px;
 
     font-family: comfortaa;
-    font-size: 70px;
+    font-size: 3.5vw;
 
     z-index: 2;
 }
@@ -39,10 +39,10 @@ body {
 .titulo3 {
     color: #fff;
     
-    padding: 80px 184px;
+    padding: 120px 184px;
 
     font-family: comfortaa;
-    font-size: 70px;
+    font-size: 3.5vw;
 
     z-index: 2;
 }

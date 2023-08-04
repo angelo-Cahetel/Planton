@@ -174,7 +174,7 @@ svg {
 .titulo-servicos {
     color: #155559;
     font-family: Comfortaa;
-    font-size: 75px;
+    font-size: 3.5vw;
     padding: 8rem 10rem 5rem 12rem;
     margin: 0;
     font-style: normal;
@@ -194,14 +194,14 @@ svg {
     position: relative;
     display: inline-block;
     margin: 2rem;
-    min-width: 230px;
-    max-width: 315px;
-    width: 100%;
+    /* min-width: 230px;
+    max-width: 315px; */
+    width: 30vw;
+    height: 30vh;
     text-align: center;
     -webkit-box-shadow: 0 10px 32px rgba(27, 31, 30, .15);
             box-shadow: 0 10px 32px rgba(27, 31, 30, .15);
-    border-radius: 0% 0% 105px;
-    overflow: hidden;
+    border-radius: 0% 0% 105px; 
 }
 
 .figure__card * {
@@ -222,21 +222,21 @@ svg {
     background-blend-mode: overlay;
     backdrop-filter: blur(20px);
     border-radius: 0 0 105px;
-    -webkit-transition: all .35s ease;
+    /* -webkit-transition: all .35s ease;
     -o-transition: all .35s ease;
     transition: all .35s ease;
     -webkit-transition-delay: .25s;
          -o-transition-delay: .25s;
-            transition-delay: .25s;
+            transition-delay: .25s; */
     z-index: 5;
 }
 
 .figure__card--image {
     vertical-align: top;
     max-width: 100%;
-    -webkit-backface-visibility: hidden;
-            backface-visibility: hidden;
-    z-index: -1;
+    /* -webkit-backface-visibility: hidden;
+            backface-visibility: hidden; */
+    z-index: 100;
 }
 
 .figure__card--caption {
@@ -253,8 +253,8 @@ svg {
     display: -ms-flexbox;
 
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
+    /* -webkit-box-orient: vertical;
+    -webkit-box-direction: normal; */
         -ms-flex-direction: column;
             flex-direction: column;
     /* -webkit-box-align: center;
@@ -271,19 +271,19 @@ svg {
 }
 
 .figure__card--caption h3 {
-    -webkit-transform: translateY(100%);
+    /* -webkit-transform: translateY(100%);
         -ms-transform: translateY(100%);
             transform: translateY(100%);
     -webkit-transition-delay: .05s;
          -o-transition-delay: .05s;
-            transition-delay: .05s;
+            transition-delay: .05s; */
     color: #efefef;
 }
 
 .titulo-cards {
     display: flex;
     font-family: comfortaa;
-    font-size: 30px;
+    font-size: 3.5vw;
     font-weight: 400;
     text-align: left;
     left: 40.93px;
@@ -300,12 +300,12 @@ svg {
     color: #efefef;
     padding: .6rem 1.2rem;
     margin-bottom: 1.4rem;
-    -webkit-transform: translateY(-100%);
+    /* -webkit-transform: translateY(-100%);
         -ms-transform: translateY(-100%);
             transform: translateY(-100%);
     -webkit-transition-delay: 0s;
          -o-transition-delay: 0s;
-            transition-delay: 0s;
+            transition-delay: 0s; */
 }
 
 .figure__card--tag.event {
@@ -324,7 +324,7 @@ svg {
     margin-top: 160px;
 }
 
-.figure__card:hover h3, 
+/* .figure__card:hover h3, 
 .figure__card:hover h5 {
     -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
@@ -342,7 +342,7 @@ svg {
     -webkit-transition-delay: .2s;
          -o-transition-delay: .2s;
             transition-delay: .2s;
-}
+} */
 
 .figure__card a {
     position: absolute;
@@ -353,16 +353,96 @@ svg {
     z-index: 10;
 }
 
-.figure__card:hover .figure__card--image {
+/* .figure__card:hover .figure__card--image {
     -webkit-transform: scale(1.25);
         -ms-transform: scale(1.25);
             transform: scale(1.25);
-}
+} */
 
 .figure__card:hover:before {
     top: 24px;
-    -webkit-transition-delay: 0s;
+    /* -webkit-transition-delay: 0s;
          -o-transition-delay: 0s;
-            transition-delay: 0s;
+            transition-delay: 0s; */
+}
+
+
+.card-container {
+    position: relative;
+    display: inline-block;
+    margin: 0 1rem 8rem 1rem;
+    min-width: 280px;
+    max-width: 300px;
+    width: 80%;
+    object-fit: contain;
+    text-align: center;
+}
+
+.servico-cards {
+    position: relative;
+    width: 95%;
+    top: 24px;
+    right: 24px;
+    bottom: 24px;
+    /* left: 24px; */
+    /* top: 100%; */
+    content: "";
+    fill: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
+    background-blend-mode: overlay;
+    backdrop-filter: blur(20px);
+    border-radius: 0 0 105px;
+}
+
+.titulo-card {
+    font-family: comfortaa;
+    color: #FFF;
+    position: absolute;
+    display: flex;
+    width: 80%;
+    font-size: 1.3rem;
+    font-weight: 400;
+    text-align: left;
+    left: 1.5vw;
+    /* padding-top: -40px; */
+    top: 2vw;
+
+
+
+}
+
+.fundo {
+    position: absolute;
+    display: flex;
+    font-weight: 400;
+    text-align: left;
+    left: 10px;
+    /* padding-top: -40px; */
+    top: 60px;
+    width: 80%;
+    height: 50vh;
+    border-radius: 0 0 105px;
+
+    fill: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
+    background-blend-mode: overlay;
+    backdrop-filter: blur(20px);
+}
+
+.botao-card {
+    position: absolute;
+    font-size: 1rem;
+    font-family: comfortaa;
+    color: #FFF;
+    background-color: #A6A926;
+    border: none;
+    border-radius: 80px;
+    width: 10vw;
+    height: 5vh;
+    top: 22vw;
+    right: 7rem;
+    cursor: pointer;
+}
+
+.botao-card:hover {
+    background-color: #155559;
 }
 
