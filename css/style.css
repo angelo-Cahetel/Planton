@@ -135,7 +135,7 @@ svg {
     font-style: normal;
     font-size: 2vw;
     font-weight: 400;
-    line-height: 2vw;
+    line-height: 2.5vw;
 }
 
 .botao-sobre {
@@ -190,187 +190,12 @@ svg {
     text-align: center;
 }
 
-.figure__card {
-    position: relative;
-    display: inline-block;
-    margin: 2rem;
-    /* min-width: 230px;
-    max-width: 315px; */
-    width: 30vw;
-    height: 30vh;
-    text-align: center;
-    -webkit-box-shadow: 0 10px 32px rgba(27, 31, 30, .15);
-            box-shadow: 0 10px 32px rgba(27, 31, 30, .15);
-    border-radius: 0% 0% 105px; 
-}
-
-.figure__card * {
-    -webkit-transition: all .35s ease;
-    -o-transition: all .35s ease;
-    transition: all .35s ease;
-}
-
-.figure__card:before {
-    position: absolute;
-    top: 24px;
-    right: 24px;
-    bottom: 24px;
-    left: 24px;
-    top: 100%;
-    content: "";
-    fill: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
-    background-blend-mode: overlay;
-    backdrop-filter: blur(20px);
-    border-radius: 0 0 105px;
-    /* -webkit-transition: all .35s ease;
-    -o-transition: all .35s ease;
-    transition: all .35s ease;
-    -webkit-transition-delay: .25s;
-         -o-transition-delay: .25s;
-            transition-delay: .25s; */
-    z-index: 5;
-}
-
-.figure__card--image {
-    vertical-align: top;
-    max-width: 100%;
-    /* -webkit-backface-visibility: hidden;
-            backface-visibility: hidden; */
-    z-index: 100;
-}
-
-.figure__card--caption {
-    position: absolute;
-    top: -20px;
-    right: 0;
-    bottom: 0;
-    left: -25px;
-    z-index: 10;
-    padding: 4.8rem;
-
-    display: -webkit-box;
-
-    display: -ms-flexbox;
-
-    display: flex;
-    /* -webkit-box-orient: vertical;
-    -webkit-box-direction: normal; */
-        -ms-flex-direction: column;
-            flex-direction: column;
-    /* -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center; */
-            /* justify-content: center; */
-}
-
-.figure__card--caption h3, 
-.figure__card--caption h5 {
-    opacity: 0;
-}
-
-.figure__card--caption h3 {
-    /* -webkit-transform: translateY(100%);
-        -ms-transform: translateY(100%);
-            transform: translateY(100%);
-    -webkit-transition-delay: .05s;
-         -o-transition-delay: .05s;
-            transition-delay: .05s; */
-    color: #efefef;
-}
-
-.titulo-cards {
-    display: flex;
-    font-family: comfortaa;
-    font-size: 3.5vw;
-    font-weight: 400;
-    text-align: left;
-    left: 40.93px;
-    padding-top: -40px;
-}
-
-.figure__card--tag {
-    font-family: comfortaa;
-    text-align: center;
-    background: #A4A929;
-    height: 25px;
-    font-size: 20px;
-    border-radius: 80px;
-    color: #efefef;
-    padding: .6rem 1.2rem;
-    margin-bottom: 1.4rem;
-    /* -webkit-transform: translateY(-100%);
-        -ms-transform: translateY(-100%);
-            transform: translateY(-100%);
-    -webkit-transition-delay: 0s;
-         -o-transition-delay: 0s;
-            transition-delay: 0s; */
-}
-
-.figure__card--tag.event {
-    margin-top: 130px;
-}
-
-.figure__card--tag.event2 {
-    margin-top: 130px;
-}
-
-.figure__card--tag.event3 {
-    margin-top: 63px;
-}
-
-.figure__card--tag.event4 {
-    margin-top: 160px;
-}
-
-/* .figure__card:hover h3, 
-.figure__card:hover h5 {
-    -webkit-transform: translateY(0);
-        -ms-transform: translateY(0);
-            transform: translateY(0);
-    opacity: 1;
-}
-
-.figure__card--caption:hover h3 {
-    -webkit-transition-delay: .3s;
-         -o-transition-delay: .3s;
-            transition-delay: .3s;
-}
-
-.figure__card--caption:hover h5 {
-    -webkit-transition-delay: .2s;
-         -o-transition-delay: .2s;
-            transition-delay: .2s;
-} */
-
-.figure__card a {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 10;
-}
-
-/* .figure__card:hover .figure__card--image {
-    -webkit-transform: scale(1.25);
-        -ms-transform: scale(1.25);
-            transform: scale(1.25);
-} */
-
-.figure__card:hover:before {
-    top: 24px;
-    /* -webkit-transition-delay: 0s;
-         -o-transition-delay: 0s;
-            transition-delay: 0s; */
-}
 
 
 .card-container {
     position: relative;
     display: inline-block;
-    margin: 0 1rem 8rem 1rem;
+    margin: 0 1rem 12rem 1rem;
     min-width: 280px;
     max-width: 300px;
     width: 80%;

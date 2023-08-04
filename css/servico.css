@@ -31,7 +31,7 @@ body {
     padding: 120px 190px;
 
     font-family: comfortaa;
-    font-size: 3.5vw;
+    font-size: 3vw;
 
     z-index: 2;
 }
@@ -42,7 +42,7 @@ body {
     padding: 120px 184px;
 
     font-family: comfortaa;
-    font-size: 3.5vw;
+    font-size: 3vw;
 
     z-index: 2;
 }
@@ -51,7 +51,7 @@ body {
 .background {
     position: absolute;
     top: 5rem;
-    width: 60rem;
+    width: 50rem;
     height: 23.8rem;
     flex-shrink: 0;
     fill: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
@@ -64,7 +64,7 @@ body {
 
 .background2 {
     position: absolute;
-    width: 71.22569rem;
+    width: 55rem;
     height: 23.75rem;
     flex-shrink: 0;
     fill: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
@@ -77,11 +77,11 @@ body {
 }
 
 .background3 {
-    width: 89vw;
+    width: 74vw;
 }
 
 .background4 {
-    width: 52rem;
+    width: 45vw;
 }
 
 .texto-container {
