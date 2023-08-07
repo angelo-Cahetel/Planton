@@ -69,5 +69,42 @@ footer {
     top: -0.8vw;
 }
 
+@media screen and (max-width: 768px) {
+    .selos-container {
+        width: 380%;
+        height: 100%;
+        padding: 2.5rem;
+    }
 
+    .endereco {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        width: 70%;
+    }
+
+    .insta,
+    .linkedin {
+        font-size: 2rem;
+    }
+
+    .selo-logo img {
+        max-width: 80vw;
+        max-height: 68vh;
+        width: auto;
+        height: auto;
+    }
+
+    .selo-2 {
+        position: relative;
+        margin-right: 10rem;
+    }
+
+    .selo-3 {
+        position: relative;
+        top: -7vw;
+        right: 10rem;
+    }
+
+
+}
 
