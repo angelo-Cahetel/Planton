@@ -58,7 +58,7 @@ header {
     text-shadow:  0 0 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 460px) {
     .box {
         position: fixed; 
         width: 80%;

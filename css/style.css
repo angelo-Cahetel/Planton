@@ -266,7 +266,7 @@ svg {
     background-color: #155559;
 }
 
-@media screen and (max-width: 768px) {  
+@media screen and (max-width: 460px) {  
     .video {
         width: 1000%;
     }
@@ -287,7 +287,7 @@ svg {
         height: 28rem;
         display: flex;
         flex-direction: column;
-        left: 23rem;
+        left: 53rem;
         top: 21rem;
     }
 

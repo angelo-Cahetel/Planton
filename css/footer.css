@@ -69,7 +69,7 @@ footer {
     top: -0.8vw;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 460px) {
     .selos-container {
         width: 380%;
         height: 100%;
