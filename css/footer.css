@@ -77,18 +77,19 @@ footer {
     }
 
     .endereco {
-        font-size: 2rem;
-        line-height: 2.5rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
         width: 70%;
     }
 
     .insta,
     .linkedin {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .selo-logo img {
-        max-width: 80vw;
+        padding: 0 2rem;
+        max-width: 55vw;
         max-height: 68vh;
         width: auto;
         height: auto;
@@ -96,13 +97,13 @@ footer {
 
     .selo-2 {
         position: relative;
-        margin-right: 10rem;
+        margin-right: 21rem;
     }
 
     .selo-3 {
         position: relative;
         top: -7vw;
-        right: 10rem;
+        right: 20rem;
     }
 
 
