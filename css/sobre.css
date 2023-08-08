@@ -173,3 +173,48 @@ footer {
 }
 
 
+@media screen and (max-width: 768px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .sobreNos {
+        padding-top: 8rem;
+        margin-bottom: 3rem;
+        font-size: 2rem;
+    }
+
+    .container-sobreNos {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .foto-sobreNos {
+        display: none !important;
+    }
+
+    .texto-principal {
+        width: 80vw;
+    }
+
+    .chamada-container {
+        top: 90rem;
+        width: 80vw;
+        height: 28vh;
+    }
+    .texto-chamada {
+        font-size: 1.5rem;
+        width: 50vw;
+        padding: 1rem 1.5rem;
+    }
+
+    .saiba-mais {
+        top: 14rem;
+        margin: 0;
+        width: 80vw;
+        height: 20vh;
+        background-color: #155559;
+        font-size: 2rem;
+    }
+}
+

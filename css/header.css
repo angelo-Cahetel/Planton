@@ -58,21 +58,11 @@ header {
     text-shadow:  0 0 0;
 }
 
-@media screen and (max-width: 460px) {
-    .box {
-        position: fixed; 
-        width: 80%;
-        height: 5%;
-        flex-shrink: 1;
-        border-radius: 0% 0% 150px 0%;
-        background: rgba(21, 85, 89, 0.4);
-        fill: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
-        background-blend-mode: overlay;
-        backdrop-filter: blur(1.5rem);
-        z-index: 1000;
+@media screen and (max-width: 768px) {
+    .box { 
+        width: 100vw;
         }
-    
-    
+
     .header {
         display: flex;
         flex-direction: column;
@@ -82,7 +72,7 @@ header {
     }
 
     img {
-        width: 60vw;
+        width: 30vw;
         height: auto;
     }
 
@@ -93,9 +83,38 @@ header {
     }
 
     .botao {
-        font-size: 1.5rem;
+        font-size: 0.8rem;
         padding: 0 0;
-        gap: 0;
     }
+
+    .header-texto {
+        gap: 1.5rem;
+    }
+
+    .selos-container {
+        width: 100vw;
+        height: 100%;
+        padding: 2.5rem;
+    }
+
+    .endereco {
+        font-size: 1rem;
+        line-height: 2rem;
+        width: 80%;
+    }
+
+    .insta,
+    .linkedin {
+        font-size: 1rem;
+    }
+
+    .selo-logo img {
+        padding: 0 2rem;
+        max-width: 55vw;
+        max-height: 68vh;
+        width: auto;
+        height: auto;
+    }
+
 }
 

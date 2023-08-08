@@ -197,3 +197,71 @@ footer {
     top: -0.8vw;
 }
 
+@media screen and (max-width: 768px) {
+    .imagem-container {
+        padding-top: 5.6rem;
+    }
+
+    .imagem-servico {
+        width: 100vw;
+        height: 25vh;
+    }
+
+    .background {
+        top: 5.6rem;
+        width:70vw;
+        height: 25vh;
+        border-radius: 0 0 0 1.5rem;
+    }
+
+    .background2 {
+        width: 90vw;
+        height: 25vh;
+        border-radius: 0 0 0 1.5rem;
+    }
+
+    .titulo {
+        padding: 4.5rem 3rem;
+        font-size: 1.5rem;
+    }
+
+    .titulo3 {
+        padding: 3rem;
+        font-size: 1.5rem;
+    }
+
+    .texto-container {
+        padding: 3rem;
+    }
+
+    .texto {
+        width: 80vw;
+        line-height: 1.8rem;
+    }
+
+    .selos-container {
+        width: 100vw;
+        height: 100%;
+        padding: 2.5rem;
+    }
+
+    .endereco {
+        font-size: 1rem;
+        line-height: 2rem;
+        width: 80%;
+    }
+
+    .insta,
+    .linkedin {
+        font-size: 1rem;
+    }
+
+    .selo-logo img {
+        padding: 0 2rem;
+        max-width: 55vw;
+        max-height: 68vh;
+        width: auto;
+        height: auto;
+    }
+   
+}
