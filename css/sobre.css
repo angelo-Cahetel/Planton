@@ -25,10 +25,10 @@ a {
 
 .foto-sobreNos {
     position: absolute;
-    width: 30vw;
-    height: 105vh;
+    width: 30%;
+    height: 760px;
     left: 58vw;
-    top: 21vw;
+    top: 18vw;
     z-index: -1;
     
 }
@@ -57,7 +57,7 @@ a {
     display: flex;
     width: 20vw;
     height: 37vh;
-    padding: 3rem 8rem;
+    padding: 4rem 8rem;
     margin-left: 48vw;
     top: 0.01vw;
     justify-content: center;
@@ -67,6 +67,7 @@ a {
     border-radius: 0rem 0rem 6.25rem 0rem;
     background: #A4A929;
     border: none;
+    cursor: pointer;
 }
 
 .saiba-mais:hover {
@@ -90,7 +91,7 @@ a {
     font-size: 2.6rem;
     font-style: normal;
     font-weight: 400;   
-    margin: 4vw 3vw;
+    margin: 4.5vw 3vw;
 
     z-index: 2;
 }
@@ -99,7 +100,7 @@ a {
 
 footer {
     position: relative;
-    top: 89vh;
+    top: 100vh;
 }
 .selos-container {
     background-color: #155559;
