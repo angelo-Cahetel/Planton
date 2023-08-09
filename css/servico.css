@@ -58,6 +58,7 @@ body {
     fill: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
     background-blend-mode: overlay;
     backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     border-radius: 0rem 0rem 0rem 6.25rem;
     
     z-index: -1;
