@@ -186,8 +186,8 @@ footer {
 
     footer {
         overflow-y: hidden;
-        height: 100vh;
     }
+    
 
     .sobreNos {
         padding-top: 8rem;
@@ -221,7 +221,7 @@ footer {
     }
 
     .saiba-mais {
-        top: 10rem;
+        top: 20rem;
         margin: 0;
         width: 80vw;
         height: 20vh;
