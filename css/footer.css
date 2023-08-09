@@ -1,6 +1,7 @@
 footer {
     height: 46vh;
 }
+
 .selos-container {
     background-color: #155559;
     display: flex;
@@ -60,20 +61,25 @@ footer {
     margin-right: 38vw;
 }
 
+.carbono {
+    display: flex;
+}
+
 .selo-2 {
     padding: 4vw;
 }
 
 .selo-3 {
     position: relative;
-    top: -0.8vw;
+    top: 3.8rem;
 }
 
 @media screen and (max-width: 768px) {
     .selos-container {
         width: 100vw;
-        height: 100%;
+        height: 100vh;
         padding: 2.5rem;
+        display: block;
     }
 
     .endereco {
@@ -93,6 +99,16 @@ footer {
         max-height: 68vh;
         width: auto;
         height: auto;
+    }
+
+    .carbono {
+        display: flex;
+        padding-top: 1rem;
+        gap: 2rem;
+    }
+
+    .selo-3 {
+        top: 1rem;
     }
 
 }

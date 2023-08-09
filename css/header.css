@@ -17,6 +17,7 @@ header {
     fill: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
     background-blend-mode: overlay;
     backdrop-filter: blur(1.5rem);
+    -webkit-backdrop-filter: blur(1.5rem);
     z-index: 1000;
     }
 
@@ -91,30 +92,7 @@ header {
         gap: 1.5rem;
     }
 
-    .selos-container {
-        width: 100vw;
-        height: 100%;
-        padding: 2.5rem;
-    }
-
-    .endereco {
-        font-size: 1rem;
-        line-height: 2rem;
-        width: 80%;
-    }
-
-    .insta,
-    .linkedin {
-        font-size: 1rem;
-    }
-
-    .selo-logo img {
-        padding: 0 2rem;
-        max-width: 55vw;
-        max-height: 68vh;
-        width: auto;
-        height: auto;
-    }
+   
 
 }
 
