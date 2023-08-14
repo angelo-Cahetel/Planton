@@ -288,7 +288,6 @@ svg {
     }
 
     .main-texto {
-        /* padding-top: 2.5rem; */
         font-size: 2rem;
         margin: 0;
     }
@@ -316,7 +315,6 @@ svg {
         margin-top: 20rem;
         width: 75vw;
         height: auto;
-        /* top: -80rem; */
     }
 
     .box_sobre {
@@ -338,7 +336,6 @@ svg {
 
     .servicos {
         width: 100vw;
-        /* position: relative; */
         top: 28rem;
         margin-top: 12rem;
     }
@@ -370,8 +367,6 @@ svg {
         width: 55vw;
         top: 3rem;
         left: 5rem;
-
-        /* display: none; */
     }
 
     .botao-card {
