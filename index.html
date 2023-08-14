@@ -17,15 +17,20 @@
                 <video src="./video/backgroundVideo.mp4" autoplay muted loop></video>
             </div>
         </section>
-        <section class="header box">
+        <section class="header box" id="menu-box">
             <div>
                 <div class="logo header">
-                    <a href="index.html"><img src="./img/Vector.png" alt="logo platon"></a>
-                <div class="lista header-texto">
-                    <a class="botao" href="sobre.html" style="text-decoration: none;">sobre nós</a>
-                    <a class="botao" href="servicos.html" style="text-decoration: none;">serviços</a>
-                    <a  class="botao" href="contato.html" style="text-decoration: none;">contato</a>
-                </div>
+                    <a id="logo" href="index.html"><img src="./img/Vector.png" alt="logo platon"></a>
+                    <nav id="nav">
+                        <button id="btn-mobile">
+                            <span id="hamburger"></span>
+                        </button>
+                        <ul class="lista" id="menu">
+                            <li><a class="botao" href="sobre.html">sobre nós</a></li>
+                            <li><a class="botao" href="servicos.html">serviços</a></li>
+                            <li><a class="botao" href="contato.html">contato</a></li>
+                        </ul>
+                    </nav>
             </div>
             </div>
         </section>
@@ -123,5 +128,6 @@
     </footer>
 
     <script src="/js/index.js"></script>
+    <script src="./js/header.js"></script>
 </body>
 </html>

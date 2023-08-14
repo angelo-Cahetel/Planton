@@ -173,7 +173,7 @@ footer {
 
 .selo-3 {
     position: relative;
-    top: 3.8rem;
+    top: 4.8rem;
 }
 
 
@@ -186,6 +186,7 @@ footer {
 
     footer {
         overflow-y: hidden;
+        height: 75vh;
     }
     
 

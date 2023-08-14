@@ -7,6 +7,19 @@
 header {
     font-family: comfortaa;
 }
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+#btn-mobile {
+    display: none;
+}
+
 .box {
     position: fixed;
     width: 100%;
@@ -60,17 +73,82 @@ header {
 }
 
 @media screen and (max-width: 768px) {
+    #btn-mobile{
+        display: flex;
+        padding: .05rem;
+        font-size: 1rem;
+        border: none;
+        background: none;
+        cursor: pointer;
+        gap: .05rem;
+    }
+
+    #hamburger {
+        border-top: 2px solid;
+        width: 20px;
+        color: #fff;
+    }
+
+    #hamburger::after, #hamburger::before {
+        display: block;
+        content: '';
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        
+    }
+
+    #menu {
+        display: block !important;
+        position: absolute;
+        width: 100%;
+        height: 0;
+        top: 5.5rem;
+        right: 0;
+        padding: 0 1rem;
+        transition: .6s;
+        background: #155459;
+        z-index: 1000;
+        visibility: hidden;
+        overflow-y: hidden;
+
+    }
+
+    #nav.active #menu {
+        height: calc(100vh - 88px);
+        visibility: visible;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    #menu a {
+        justify-content: center;
+        /* padding: 0 5rem; */
+        margin-left: 12rem;
+        gap: 2rem;
+    }
+
+    li:first-child {
+        padding-top: 15rem;
+    }
+
+    li {
+        line-height: 1rem;
+        padding: 2rem 0;
+    }
+
     .box { 
         width: 100vw;
         }
 
-    .header {
+    /* .header {
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
         gap: 5px;
-    }
+    } */
 
     img {
         width: 30vw;
@@ -80,19 +158,7 @@ header {
     .logo {
         align-items: center;
         justify-content: center;
-        margin: 0; 
+        margin: 0 3rem; 
     }
-
-    .botao {
-        font-size: 0.8rem;
-        padding: 0 0;
-    }
-
-    .header-texto {
-        gap: 1.5rem;
-    }
-
-   
-
 }
 
