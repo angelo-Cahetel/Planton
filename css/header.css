@@ -87,6 +87,7 @@ li {
         border-top: 2px solid;
         width: 20px;
         color: #fff;
+        z-index: 1002;
     }
 
     #hamburger::after, #hamburger::before {
@@ -96,7 +97,21 @@ li {
         height: 2px;
         background: currentColor;
         margin-top: 5px;
-        
+        transition: .3s;
+        position: relative;
+    }
+
+    #nav.active #hamburger {
+        border-top-color: transparent;
+    }
+
+    #nav.active #hamburger::before {
+        transform: rotate(135deg);
+    }
+
+    #nav.active #hamburger::after {
+        transform: rotate(-135deg);
+        top: -7px;
     }
 
     #menu {
@@ -104,7 +119,7 @@ li {
         position: absolute;
         width: 100%;
         height: 0;
-        top: 5.5rem;
+        top: 0;
         right: 0;
         padding: 0 1rem;
         transition: .6s;
@@ -116,7 +131,7 @@ li {
     }
 
     #nav.active #menu {
-        height: calc(100vh - 88px);
+        height: 100vh;
         visibility: visible;
         overflow-y: auto;
         overflow-x: hidden;

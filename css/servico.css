@@ -128,7 +128,7 @@ footer {
     position: relative;
     
     width: 100vw;
-    height: 60vh;
+    height: auto;
 }
 .selos-container {
     background-color: #155559;
