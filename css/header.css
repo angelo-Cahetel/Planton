@@ -140,12 +140,12 @@ li {
     #menu a {
         justify-content: center;
         /* padding: 0 5rem; */
-        margin-left: 9.5rem;
+        margin-left: 9rem;
         gap: 1rem;
     }
 
     li:first-child {
-        padding-top: 20rem;
+        padding-top: 15rem;
     }
 
     li {
