@@ -2,7 +2,6 @@ body {
     background: linear-gradient(to right,#A6A926, #26A1A9);
     color: #fff;
     font-family: comfortaa;
-    overflow-x: hidden;
 }
 
 ::selection {
@@ -101,7 +100,7 @@ a {
 footer {
     position: relative;
     top: 100vh;
-    height: 100vh;
+    height: auto;
 }
 .selos-container {
     background-color: #155559;
@@ -179,33 +178,17 @@ footer {
 
 
 @media screen and (max-width: 768px) {
-    html {
-        height: 100vh;
-    }
-
     header,
     main,
     footer {
         overflow-x: hidden;
     }
-
-    footer {
-        overflow-y: hidden;
-        /* height: 75vh; */
-    }
     
-
     .sobreNos {
         padding-top: 8rem;
-        margin-bottom: 3rem;
+        margin-bottom: 1rem;
         font-size: 2rem;
     }
-
-    .container-sobreNos {
-        display: flex;
-        flex-direction: column;
-    }
-
     .foto-sobreNos {
         display: none !important;
     }
@@ -215,7 +198,7 @@ footer {
     }
 
     .chamada {
-        height: 65vh;
+        height: 100vh;
     }
 
     .chamada-container {
@@ -231,7 +214,7 @@ footer {
     }
 
     .saiba-mais {
-        top: 15rem;
+        top: 14rem;
         margin: 0;
         width: 80vw;
         height: 20vh;

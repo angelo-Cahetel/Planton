@@ -226,7 +226,7 @@ footer {
     }
 
     .background {
-        top: 5.6rem;
+        top: 6.4rem;
         width:70vw;
         height: 25vh;
         border-radius: 0 0 0 1.5rem;
@@ -239,17 +239,17 @@ footer {
     }
 
     .titulo {
-        padding: 4.5rem 3rem;
+        padding: 4rem 3rem;
         font-size: 1.5rem;
     }
 
     .titulo3 {
-        padding: 3rem;
+        padding: 2.5rem 3rem;
         font-size: 1.5rem;
     }
 
     .texto-container {
-        padding: 3rem;
+        padding: 2.5rem 3rem;
     }
 
     .texto {

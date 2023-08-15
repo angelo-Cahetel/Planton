@@ -172,6 +172,7 @@ li {
     img {
         width: 30vw;
         height: auto;
+        margin-top: 12px;
     }
 
     .logo {
