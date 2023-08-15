@@ -197,8 +197,8 @@ svg {
     position: relative;
     display: inline-block;
     margin: 0 1rem 12rem 1rem;
-    /* min-width: 280px;
-    max-width: 300px; */
+    min-width: 280px;
+    max-width: 380px;
     width: 18%;
     object-fit: contain;
     text-align: center;
@@ -239,7 +239,6 @@ svg {
     font-weight: 400;
     text-align: left;
     left: 10px;
-    /* padding-top: -40px; */
     top: 60px;
     width: 80%;
     height: 45vh;
@@ -261,8 +260,8 @@ svg {
     border-radius: 80px;
     width: 10rem;
     height: 2.5rem;
-    top: 23rem;
-    right: 7rem;
+    top: 40vh;
+    right: 12vh;
     cursor: pointer;
 }
 
