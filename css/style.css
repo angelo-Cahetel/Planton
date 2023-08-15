@@ -243,7 +243,7 @@ svg {
     /* padding-top: -40px; */
     top: 60px;
     width: 80%;
-    height: 22rem;
+    height: 45vh;
     border-radius: 0 0 105px;
 
     fill: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
@@ -262,8 +262,8 @@ svg {
     border-radius: 80px;
     width: 10rem;
     height: 2.5rem;
-    top: 20rem;
-    right: 6.5rem;
+    top: 23rem;
+    right: 7rem;
     cursor: pointer;
 }
 
@@ -372,6 +372,7 @@ svg {
         width: 40vw;
         height: 5vh;
         left: 6rem;
+        top: 19rem;
     }
 
 

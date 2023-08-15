@@ -59,7 +59,7 @@ li {
 .botao {
     color: #8FAB71;
     font-family: Comfortaa;
-    font-size: 30px;
+    font-size: 1.4rem;
     font-style: normal;
     font-weight: 400px;
     line-height: 135%;
@@ -140,7 +140,7 @@ li {
     #menu a {
         justify-content: center;
         /* padding: 0 5rem; */
-        margin-left: 9.8rem;
+        margin-left: 9.5rem;
         gap: 1rem;
     }
 
@@ -155,7 +155,11 @@ li {
 
     .box { 
         width: 100vw;
-        }
+    }
+
+    .botao {
+        font-size: 30px;
+    }
 
     /* .header {
         display: flex;
