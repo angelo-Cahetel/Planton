@@ -214,7 +214,7 @@ footer {
     }
 
     .saiba-mais {
-        top: 14rem;
+        top: 13rem;
         margin: 0;
         width: 80vw;
         height: 20vh;
@@ -225,7 +225,7 @@ footer {
     .selos-container {
         width: 100vw;
         height: 100vh;
-        padding: 2.5rem;
+        padding: 2.5rem 0;
         display: block;
     }
 
@@ -250,7 +250,7 @@ footer {
 
     .carbono {
         display: flex;
-        padding-top: 5rem;
+        padding: 5rem 1.5rem;
         gap: 2rem;
     }
 
