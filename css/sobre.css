@@ -101,7 +101,7 @@ a {
 footer {
     position: relative;
     top: 100vh;
-    height: auto;
+    height: 100vh;
 }
 .selos-container {
     background-color: #155559;
@@ -179,6 +179,10 @@ footer {
 
 
 @media screen and (max-width: 768px) {
+    html {
+        height: 100vh;
+    }
+
     header,
     main,
     footer {
@@ -187,7 +191,7 @@ footer {
 
     footer {
         overflow-y: hidden;
-        height: 75vh;
+        /* height: 75vh; */
     }
     
 
@@ -210,9 +214,13 @@ footer {
         width: 80vw;
     }
 
+    .chamada {
+        height: 65vh;
+    }
+
     .chamada-container {
         position: relative !important;
-        top: 5rem;
+        top: 8rem;
         width: 80vw;
         height: 28vh;
     }
@@ -223,7 +231,7 @@ footer {
     }
 
     .saiba-mais {
-        top: 20rem;
+        top: 14rem;
         margin: 0;
         width: 80vw;
         height: 20vh;
@@ -259,7 +267,7 @@ footer {
 
     .carbono {
         display: flex;
-        padding-top: 1rem;
+        padding-top: 5rem;
         gap: 2rem;
     }
 
