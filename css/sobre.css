@@ -209,8 +209,9 @@ footer {
     }
     .texto-chamada {
         font-size: 1.3rem;
-        width: 75vw;
-        padding: 2.5rem 1.5rem;
+        width: 65vw;
+        padding: 2.8rem 2.5rem 2.8rem 1.5rem;
+        margin: 0;
     }
 
     .saiba-mais {
