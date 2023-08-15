@@ -296,7 +296,7 @@ svg {
     }
 
     .container-sobre {
-        top: 10rem;
+        top: 9.5rem;
         padding: 4rem;
         margin: 0;
     }
@@ -311,7 +311,7 @@ svg {
         font-size: 2rem;
         line-height: 2.8rem;
         padding: 0 5rem;
-        margin-top: 8rem;
+        /* margin-top: 5rem; */
         width: 60vw;
         height: auto;
     }
