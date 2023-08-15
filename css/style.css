@@ -210,7 +210,6 @@ svg {
     top: 24px;
     right: 24px;
     bottom: 24px;
-    content: "";
     fill: linear-gradient(180deg, rgba(255, 255, 255, 0.01) 0%, rgba(255, 255, 255, 0.01) 100%);
     background-blend-mode: overlay;
     backdrop-filter: blur(20px);
